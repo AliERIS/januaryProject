@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     
     
     func randomcolors(){
-        button1.tintColor.
+        
     }
     
     
