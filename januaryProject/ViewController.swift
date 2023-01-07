@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    
+    
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
@@ -21,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var button9: UIButton!
     
     @IBOutlet weak var labelScore: UILabel!
-    
+    var scoretext = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +43,10 @@ class ViewController: UIViewController {
         else
         {
             button1.isHidden = true
+            scoretext += 1
+            labelScore.text = String(scoretext)
+            
+            
         }
         
         print("button1")
@@ -145,6 +152,7 @@ class ViewController: UIViewController {
 
     func randomcolors(){
         let buttonlist = [button1,button2,button3,button4,button5,button6,button7,button8,button9]
+        
         let red = CGFloat.random(in: 0...255)
         let green = CGFloat.random(in: 0...255)
         let blue = CGFloat.random(in: 0...255)
@@ -219,8 +227,11 @@ class ViewController: UIViewController {
         
         
         for i in 0...8{
-            buttonlist[i]!.backgroundColor = UIColor(red: listofreds[i]/255, green: listofgreens[i]/255, blue: listofblues[i]/255,alpha: 1)
+            buttonlist[i]!.backgroundColor = UIColor(red: listofreds[randomlist[i]]/255, green: listofgreens[randomlist[i]]/255, blue: listofblues[randomlist[i]]/255,alpha: 1)
             }
+        
+        
+        
         }
         
     }
