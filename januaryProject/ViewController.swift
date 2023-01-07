@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var button8: UIButton!
     @IBOutlet weak var button9: UIButton!
     
+    var buttonlist = [button1,button2,button3,button4,button5,button6,button7,button8,button9]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,9 +43,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func button4(_ sender: Any) {
+        print("button4")
     }
     
     @IBAction func button5(_ sender: Any) {
+        print("button5")
     }
     
 
@@ -62,6 +65,10 @@ class ViewController: UIViewController {
     @IBAction func button9(_ sender: Any) {
     }
     
+    
+    func randomcolors(){
+        button1.tintColor.
+    }
     
     
 }

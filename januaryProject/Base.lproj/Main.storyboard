@@ -43,18 +43,6 @@
                                     <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="biM-bx-UCd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7F-iR-Svb">
-                                <rect key="frame" x="48" y="329" width="75" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="4"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQZ-oT-eJv">
-                                <rect key="frame" x="165" y="329" width="75" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="5"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdD-sH-vqC">
                                 <rect key="frame" x="273" y="329" width="75" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -117,8 +105,6 @@
                         <outlet property="button1" destination="sgk-jx-XAD" id="8Kn-sg-6tJ"/>
                         <outlet property="button2" destination="VDD-1l-LIC" id="GLt-DM-2a0"/>
                         <outlet property="button3" destination="2hR-3X-oRp" id="lwA-aj-mQs"/>
-                        <outlet property="button4" destination="M7F-iR-Svb" id="VQo-35-5he"/>
-                        <outlet property="button5" destination="vQZ-oT-eJv" id="Y82-yl-lWH"/>
                         <outlet property="button6" destination="OdD-sH-vqC" id="CD0-Ro-epu"/>
                         <outlet property="button7" destination="gCE-l6-jPY" id="eYB-a3-6aO"/>
                         <outlet property="button8" destination="Ipx-8P-EU5" id="yYt-cQ-fVE"/>
